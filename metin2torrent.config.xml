@@ -1,0 +1,19 @@
+<torrent_config 
+	notice_ver="0"
+	notice_url="www.swordforge.online/patch/metin2_accept"
+	notice_width="671"
+	notice_height="600"
+	bandwidth_range="5:10:25:50:75:100:150:200:250:500:1000:5000"
+	foreground_speed="100"
+	background_speed="10"
+	run_path="matrix2client.bin"
+	max_uploads_per_session="100" 
+	max_connections_per_session="200" 
+	max_uploads_per_torrent="50" 
+	max_connections_per_torrent="50"
+	seeding_duration="604800"
+	cur_patcher_path="Matrix2.exe"
+	
+	>
+	<foreground_patch crcpatch_url="www.swordforge.online/patch" crcversion="1.0.0.0"/>
+</torrent_config>

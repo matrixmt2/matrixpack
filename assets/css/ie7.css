@@ -1,0 +1,15 @@
+html[dir="rtl"] body {
+	background-position: right top
+}
+
+html[dir="rtl"] .navi {
+	margin: 0
+}
+.panel .caption h3 {
+	font-size: 19px;
+	margin: 17px 0
+}
+
+.panel .caption p {
+	font-size: 18px
+}
