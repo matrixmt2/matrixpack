@@ -1,6 +1,6 @@
 <torrent_config 
 	notice_ver="0"
-	notice_url="www.matrixmt2.github.io/matrixpack/metin2_accept"
+	notice_url="http://matrixmt2.github.io/matrixpack/metin2_accept"
 	notice_width="671"
 	notice_height="600"
 	bandwidth_range="5:10:25:50:75:100:150:200:250:500:1000:5000"
@@ -15,5 +15,5 @@
 	cur_patcher_path="Matrix2.exe"
 	
 	>
-	<foreground_patch crcpatch_url="www.matrixmt2.github.io/matrixpack" crcversion="1.0.0.0"/>
+	<foreground_patch crcpatch_url="http://matrixmt2.github.io/matrixpack" crcversion="1.0.0.0"/>
 </torrent_config>
