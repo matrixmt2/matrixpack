@@ -13,7 +13,8 @@
 	max_connections_per_torrent="50"
 	seeding_duration="604800"
 	cur_patcher_path="Matrix2.exe"
-	
+	new_patcher_path="Matrix2.bin"
+	new_patcher_crc32="0xA724BB74"
 	>
 	<foreground_patch crcpatch_url="http://matrixmt2.github.io/matrixpack" crcversion="1.0.0.0"/>
 </torrent_config>
