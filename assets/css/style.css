@@ -1,0 +1,67 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+/* Ana Dış Çerçeve (562x315) */
+.background {
+    background: url('../images/bg.png') no-repeat;
+    display: block;
+    height: 315px;
+    width: 562px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Resmin Göründüğü İç Alan (552x280) */
+.allwidth {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 552px;
+    height: 280px;
+    background: url('../images/bg_01_city.jpg') no-repeat;
+    background-size: cover; /* Resmi alana tam sığdırır */
+}
+
+/* Metin Kutusu Konumlandırma */
+.text01 {
+    margin-top: 135px; /* Görseldeki metin kutusu yüksekliği */
+    margin-left: 75px;
+    width: 405px;
+    height: 135px;
+    display: block;
+    overflow-y: auto; /* Yazı çok uzun olursa kutu içinde kaydırılabilir */
+}
+
+/* Başlık Ayarları */
+h1 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Paragraf Ayarları */
+p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Scrollbar (Kaydırma Çubuğu) Tasarımı (Opsiyonel) */
+.text01::-webkit-scrollbar {
+    width: 5px;
+}
+.text01::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
