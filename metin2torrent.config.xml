@@ -14,7 +14,7 @@
 	seeding_duration="604800"
 	cur_patcher_path="MatrixMt2.exe"
 	new_patcher_path="metin2.bin"
-	new_patcher_crc32="0x9936A376"
+	new_patcher_crc32="0xC85F2659"
 	>
 	<foreground_patch crcpatch_url="http://matrixmt2.github.io/matrixpack" crcversion="1.0.0.0"/>
 </torrent_config>
