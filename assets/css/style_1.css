@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #000;
     color: #ffffff;
-    overflow: hidden;
+    overflow: hidden; /* Dış taşmaları engeller */
 }
 
 /* Ana Dış Çerçeve (562x315) */
@@ -27,17 +27,25 @@ body {
     width: 552px;
     height: 280px;
     background: url('../images/bg_01_city.jpg') no-repeat;
-    background-size: cover; /* Resmi alana tam sığdırır */
+    background-size: cover;
 }
 
 /* Metin Kutusu Konumlandırma */
 .text01 {
-    margin-top: 135px; /* Görseldeki metin kutusu yüksekliği */
+    margin-top: 135px;
     margin-left: 75px;
     width: 405px;
     height: 135px;
     display: block;
-    overflow-y: auto; /* Yazı çok uzun olursa kutu içinde kaydırılabilir */
+    /* Scrollbar'ı kaldıran kısımlar aşağıdadır */
+    overflow: hidden; 
+    -ms-overflow-style: none;  /* IE ve Edge için */
+    scrollbar-width: none;  /* Firefox için */
+}
+
+/* Chrome, Safari ve Patcher motoru için kaydırma çubuğunu gizler */
+.text01::-webkit-scrollbar {
+    display: none;
 }
 
 /* Başlık Ayarları */
@@ -55,13 +63,4 @@ p {
     line-height: 16px;
     font-weight: normal;
     text-shadow: 1px 1px 2px #000;
-}
-
-/* Scrollbar (Kaydırma Çubuğu) Tasarımı (Opsiyonel) */
-.text01::-webkit-scrollbar {
-    width: 5px;
-}
-.text01::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
 }
