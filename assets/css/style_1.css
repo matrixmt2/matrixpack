@@ -10,7 +10,7 @@ body {
 .patcher-container {
     width: 562px;
     height: 315px;
-    background: url('assets/images/bg_01_city.jpg') no-repeat center center;
+    background: url('../images/bg_01_city.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     border: 1px solid #1a1a1a;
