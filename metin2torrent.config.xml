@@ -6,15 +6,15 @@
 	bandwidth_range="5:10:25:50:75:100:150:200:250:500:1000:5000"
 	foreground_speed="100"
 	background_speed="10"
-	run_path="matrix2client.bin"
+	run_path="metin2client.bin"
 	max_uploads_per_session="100" 
 	max_connections_per_session="200" 
 	max_uploads_per_torrent="50" 
 	max_connections_per_torrent="50"
 	seeding_duration="604800"
-	cur_patcher_path="Matrix2.exe"
-	new_patcher_path="Matrix2.bin"
-	new_patcher_crc32="0xA724BB74"
+	cur_patcher_path="MatrixMt2.exe"
+	new_patcher_path="metin2.bin"
+	new_patcher_crc32="0x9936A376"
 	>
 	<foreground_patch crcpatch_url="http://matrixmt2.github.io/matrixpack" crcversion="1.0.0.0"/>
 </torrent_config>
