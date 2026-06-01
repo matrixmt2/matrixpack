@@ -22,10 +22,8 @@ body {
 /* Resmin Göründüğü İç Alan (552x280) */
 .allwidth {
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 552px;
-    height: 280px;
+    width: 562px;
+    height: 315px;
     background: url('../images/bg_01_city.png') no-repeat;
     background-size: cover;
 }
